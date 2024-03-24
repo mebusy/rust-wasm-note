@@ -11,6 +11,9 @@ brew install wasm-pack
 
 ## Write WASM Module using Rust
 
+https://developer.mozilla.org/en-US/docs/WebAssembly/Rust_to_Wasm
+
+
 ```bash
 cargo new --lib hello-wasm
 cd hello-wasm
