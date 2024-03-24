@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title></title>
+  </head>
+  <body>
+    <script type="module">
+      import init, { add } from './pkg/hello_wasm.js'
+      await init()
+      console.log(add(1, 2))
+    </script>
+  </body>
+</html>

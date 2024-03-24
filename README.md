@@ -34,5 +34,11 @@ build
 wasm-pack build --target web
 ```
 
+loading up the wasm module and calling it from javascript
 
-
+```html
+    <script type="module">
+      import init, { add } from './pkg/hello_wasm.js'
+      await init()
+      console.log(add(1, 2))
+```
